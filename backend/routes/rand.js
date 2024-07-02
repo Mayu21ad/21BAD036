@@ -33,7 +33,7 @@ class RandomNumbers {
   }
 }
 
-const rand = new RandomNumbers(10); // default window size is 10
+const rand = new RandomNumbers(10); 
 
 router.get('/', (req, res) => {
   rand.generateNumbers();
